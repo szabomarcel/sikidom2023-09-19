@@ -11,7 +11,7 @@ namespace sikidom
         double aOldal;
         double bOldal;
 
-        public Teglalap(double parameter1) : base("Teglatest", parameter1, 0)
+        public Teglalap(double parameter1) : base("Téglatest", parameter1, 0)
         {
             this.aOldal = parameter1;
             this.bOldal = parameter1;

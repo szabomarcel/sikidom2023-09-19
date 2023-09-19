@@ -9,7 +9,7 @@ namespace sikidom
     internal class Kor : Sikidom
     {
         public double Sugar;        
-        public Kor( double parameter1) : base("Kör", parameter1, 0)
+        public Kor(double parameter1) : base("Kör", parameter1, 0)
         {
             this.Sugar = parameter1;
         }

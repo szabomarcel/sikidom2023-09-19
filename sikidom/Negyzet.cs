@@ -9,7 +9,7 @@ namespace sikidom
     internal class Negyzet : Sikidom
     {
         public double aOldal;
-        public Negyzet( double parameter1) : base("Negyzet", parameter1, 0)
+        public Negyzet( double parameter1) : base("Négyzet", parameter1, 0)
         {
             this.aOldal = parameter1;
         }
