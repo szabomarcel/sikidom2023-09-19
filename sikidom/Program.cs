@@ -19,7 +19,7 @@ namespace sikidom
                 Console.WriteLine($"{item.Terulet()} - {item.Kerulet()}");
             }
 
-            Console.ReadLine();
+            Console.ReadLine(); 
         }
     }
 }

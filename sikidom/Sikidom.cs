@@ -11,7 +11,6 @@ namespace sikidom
         public string nev;
         public double parameter1; 
         public double parameter2;
-
         public Sikidom(string nev, double parameter1, double parameter2)
         {
             this.nev = nev;
@@ -20,10 +19,9 @@ namespace sikidom
         }
         public abstract double Terulet();
         public abstract double Kerulet();
-
         public override string ToString()
         {
-            return this.nev;
+            return this.nev; 
         }
     }
 }

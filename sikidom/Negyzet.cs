@@ -9,12 +9,10 @@ namespace sikidom
     internal class Negyzet : Sikidom
     {
         public double aOldal;
-
         public Negyzet( double parameter1) : base("Negyzet", parameter1, 0)
         {
             this.aOldal = parameter1;
         }
-
         public override double Terulet() { return aOldal * aOldal; }
         public override double Kerulet() { return aOldal * 4; }
     }

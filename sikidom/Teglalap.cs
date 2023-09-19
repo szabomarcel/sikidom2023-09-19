@@ -18,6 +18,6 @@ namespace sikidom
         }
 
         public override double Terulet() { return aOldal + bOldal; }
-        public override double Kerulet() { return 2 * aOldal + 2 * bOldal; }
+        public override double Kerulet() { return 2 * aOldal + 2 * bOldal; } 
     }
 }
